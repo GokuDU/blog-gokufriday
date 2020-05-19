@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/blog-demo/',
+  base: '/blog-gokufriday/',
   title: 'blog-Gokufriday',
   description: 'Vuepress blog demo',
   themeConfig: {
@@ -9,11 +9,12 @@ module.exports = {
 	    repoLabel: 'My GitHub',
 	  	nav: [
 	  		{ text: 'Home', link: '/' },
-	  		{ text: 'FirstBlog', link: '/blog/FirstBlog.md' }
+	  		{ text: 'Blog', link: '/blog/FirstBlog.md' },
 	  	],
 	  	sidebar: [
 		  ['/', '首页'],
-		  ['/blog/FirstBlog.md', '我的第一篇博客']
+		  ['/blog/FirstBlog.md', '我的第一篇博客'],
+		  ['/blog/linuxBaseCode.md', 'linux 基本命令']
 		]
 	}
 }
